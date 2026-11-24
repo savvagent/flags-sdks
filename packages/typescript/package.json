@@ -72,7 +72,7 @@
     "prettier": "^3.7.2",
     "ts-jest": "^29.4.15",
     "tsup": "^9.0.0",
-    "typescript": "~6.0.3"
+    "typescript": "~7.0.2"
   },
   "dependencies": {
     "@microsoft/fetch-event-source": "^2.0.1"

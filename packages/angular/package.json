@@ -47,7 +47,7 @@
     "rxjs": "^7.8.2",
     "ts-jest": "29.4.15",
     "ts-node": "^10.9.2",
-    "typescript": "~6.0.3"
+    "typescript": "~7.0.2"
   },
   "scripts": {
     "build": "ng-packagr -p ng-package.json && node -e \"require('fs').copyFileSync('dist/types/savvagent-angular.d.ts', 'dist/types/savvagent-angular.d.mts')\"",
