@@ -43,7 +43,7 @@
     "esbuild-plugin-solid": "0.6.0",
     "eslint": "^8.57.0",
     "jsdom": "27.2.0",
-    "solid-js": "^1.9.19",
+    "solid-js": "^2.0.3",
     "tsup": "^9.0.0",
     "typescript": "~6.0.3",
     "vite": "^8.3.8",
