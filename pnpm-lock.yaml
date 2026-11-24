@@ -68,7 +68,7 @@ importers:
     devDependencies:
       '@angular/build':
         specifier: ^22.2.7
-        version: 22.2.7(@angular/compiler-cli@22.2.6(@angular/compiler@22.2.6)(typescript@6.0.3))(@angular/compiler@22.2.6)(@angular/core@22.2.6(@angular/compiler@22.2.6)(rxjs@7.8.2)(zone.js@0.16.3))(@angular/platform-browser@22.2.6(@angular/common@22.2.6(@angular/core@22.2.6(@angular/compiler@22.2.6)(rxjs@7.8.2)(zone.js@0.16.3))(rxjs@7.8.2))(@angular/core@22.2.6(@angular/compiler@22.2.6)(rxjs@7.8.2)(zone.js@0.16.3)))(@types/node@20.19.43)(istanbul-lib-instrument@6.0.3)(less@4.9.1)(ng-packagr@22.2.6(@angular/compiler-cli@22.2.6(@angular/compiler@22.2.6)(typescript@6.0.3))(@volar/typescript@2.4.15)(tslib@2.9.1)(typescript@6.0.3))(postcss@8.5.33)(rollup@4.68.5)(tslib@2.9.1)(typescript@6.0.3)(vitest@5.1.0(@types/node@20.19.43)(happy-dom@21.0.4)(jsdom@27.2.0)(vite@8.3.5(@types/node@20.19.43)(esbuild@0.28.2)(less@4.9.1)(sass-embedded@1.104.1)(sass@1.104.1)(yaml@2.9.1)))(yaml@2.9.1)
+        version: 22.2.7(@angular/compiler-cli@22.2.6(@angular/compiler@22.2.6)(typescript@6.0.3))(@angular/compiler@22.2.6)(@angular/core@22.2.6(@angular/compiler@22.2.6)(rxjs@7.8.2)(zone.js@0.16.3))(@angular/platform-browser@22.2.6(@angular/common@22.2.6(@angular/core@22.2.6(@angular/compiler@22.2.6)(rxjs@7.8.2)(zone.js@0.16.3))(rxjs@7.8.2))(@angular/core@22.2.6(@angular/compiler@22.2.6)(rxjs@7.8.2)(zone.js@0.16.3)))(@types/node@20.19.43)(istanbul-lib-instrument@6.0.3)(less@4.9.1)(ng-packagr@22.2.6(@angular/compiler-cli@22.2.6(@angular/compiler@22.2.6)(typescript@6.0.3))(@volar/typescript@2.4.30(typescript@6.0.3))(@vue/language-core@3.3.14)(tslib@2.9.1)(typescript@6.0.3)(vue-tsc@3.3.14(typescript@6.0.3)))(postcss@8.5.33)(rollup@4.68.5)(tslib@2.9.1)(typescript@6.0.3)(vitest@5.1.0(@types/node@20.19.43)(happy-dom@21.0.4)(jsdom@27.2.0)(vite@8.3.5(@types/node@20.19.43)(esbuild@0.28.2)(less@4.9.1)(sass-embedded@1.104.1)(sass@1.104.1)(yaml@2.9.1)))(yaml@2.9.1)
       '@angular/cli':
         specifier: ^22.2.7
         version: 22.2.7(@types/node@20.19.43)(chokidar@5.0.0)
@@ -325,8 +325,8 @@ importers:
         specifier: ^8.3.8
         version: 8.3.8(@types/node@24.19.2)(esbuild@0.28.2)(less@4.9.1)(sass-embedded@1.108.2)(sass@1.108.2)(yaml@2.9.1)
       vue-tsc:
-        specifier: ^2.0.0
-        version: 2.2.12(typescript@6.0.3)
+        specifier: ^3.3.14
+        version: 3.3.14(typescript@6.0.3)
 
   packages/angular:
     dependencies:
@@ -369,7 +369,7 @@ importers:
         version: 30.5.2
       ng-packagr:
         specifier: ^22.2.6
-        version: 22.2.6(@angular/compiler-cli@22.2.6(@angular/compiler@22.2.6)(typescript@6.0.3))(@volar/typescript@2.4.15)(tslib@2.9.1)(typescript@6.0.3)
+        version: 22.2.6(@angular/compiler-cli@22.2.6(@angular/compiler@22.2.6)(typescript@6.0.3))(@volar/typescript@2.4.30(typescript@6.0.3))(@vue/language-core@3.3.14)(tslib@2.9.1)(typescript@6.0.3)(vue-tsc@3.3.14(typescript@6.0.3))
       reflect-metadata:
         specifier: 0.2.2
         version: 0.2.2
@@ -446,7 +446,7 @@ importers:
         version: 8.57.1
       jest:
         specifier: ^30.5.2
-        version: 30.5.2(@types/node@24.19.2)(ts-node@10.9.2(@types/node@24.19.2)(typescript@6.0.3))
+        version: 30.5.2(@types/node@24.19.2)
       jest-environment-jsdom:
         specifier: ^30.5.2
         version: 30.5.2
@@ -461,7 +461,7 @@ importers:
         version: 19.3.1(react@19.3.1)
       ts-jest:
         specifier: ^29.4.15
-        version: 29.4.15(@babel/core@8.0.5)(@jest/transform@30.5.2)(@jest/types@30.5.1)(babel-jest@30.5.2(@babel/core@8.0.5))(jest-util@30.5.1)(jest@30.5.2(@types/node@24.19.2)(ts-node@10.9.2(@types/node@24.19.2)(typescript@6.0.3)))(typescript@6.0.3)
+        version: 29.4.15(@babel/core@8.0.5)(@jest/transform@30.5.2)(@jest/types@30.5.1)(babel-jest@30.5.2(@babel/core@8.0.5))(jest-util@30.5.1)(jest@30.5.2(@types/node@24.19.2))(typescript@6.0.3)
       tsup:
         specifier: ^9.0.0
         version: 9.0.0(postcss@8.5.33)(typescript@6.0.3)(yaml@2.9.1)
@@ -495,10 +495,10 @@ importers:
         version: 8.57.1
       jest:
         specifier: ^30.5.2
-        version: 30.5.2(@types/node@20.19.43)(ts-node@10.9.2(@types/node@20.19.43)(typescript@6.0.3))
+        version: 30.5.2(@types/node@20.19.43)
       ts-jest:
         specifier: ^29.4.15
-        version: 29.4.15(@babel/core@8.0.5)(@jest/transform@30.5.2)(@jest/types@30.5.1)(babel-jest@30.5.2(@babel/core@8.0.5))(jest-util@30.5.1)(jest@30.5.2(@types/node@20.19.43)(ts-node@10.9.2(@types/node@20.19.43)(typescript@6.0.3)))(typescript@6.0.3)
+        version: 29.4.15(@babel/core@8.0.5)(@jest/transform@30.5.2)(@jest/types@30.5.1)(babel-jest@30.5.2(@babel/core@8.0.5))(jest-util@30.5.1)(jest@30.5.2(@types/node@20.19.43))(typescript@6.0.3)
       tsup:
         specifier: ^9.0.0
         version: 9.0.0(postcss@8.5.33)(typescript@6.0.3)(yaml@2.9.1)
@@ -541,7 +541,7 @@ importers:
         version: 8.57.1
       jest:
         specifier: ^30.5.2
-        version: 30.5.2(@types/node@24.19.2)(ts-node@10.9.2(@types/node@24.19.2)(typescript@6.0.3))
+        version: 30.5.2(@types/node@24.19.2)
       jest-environment-jsdom:
         specifier: ^30.5.2
         version: 30.5.2
@@ -553,7 +553,7 @@ importers:
         version: 19.3.1(react@19.3.1)
       ts-jest:
         specifier: ^29.4.15
-        version: 29.4.15(@babel/core@8.0.5)(@jest/transform@30.5.2)(@jest/types@30.5.1)(babel-jest@30.5.2(@babel/core@8.0.5))(jest-util@30.5.1)(jest@30.5.2(@types/node@24.19.2)(ts-node@10.9.2(@types/node@24.19.2)(typescript@6.0.3)))(typescript@6.0.3)
+        version: 29.4.15(@babel/core@8.0.5)(@jest/transform@30.5.2)(@jest/types@30.5.1)(babel-jest@30.5.2(@babel/core@8.0.5))(jest-util@30.5.1)(jest@30.5.2(@types/node@24.19.2))(typescript@6.0.3)
       tsup:
         specifier: ^9.0.0
         version: 9.0.0(postcss@8.5.33)(typescript@6.0.3)(yaml@2.9.1)
@@ -753,13 +753,13 @@ importers:
         version: 8.57.1
       jest:
         specifier: ^30.5.2
-        version: 30.5.2(@types/node@20.19.43)(ts-node@10.9.2(@types/node@20.19.43)(typescript@6.0.3))
+        version: 30.5.2(@types/node@20.19.43)
       prettier:
         specifier: ^3.7.2
         version: 3.10.1
       ts-jest:
         specifier: ^29.4.15
-        version: 29.4.15(@babel/core@7.29.13)(@jest/transform@30.5.2)(@jest/types@30.5.1)(babel-jest@30.5.2(@babel/core@7.29.13))(esbuild@0.28.2)(jest-util@30.5.1)(jest@30.5.2(@types/node@20.19.43)(ts-node@10.9.2(@types/node@20.19.43)(typescript@6.0.3)))(typescript@6.0.3)
+        version: 29.4.15(@babel/core@8.0.5)(@jest/transform@30.5.2)(@jest/types@30.5.1)(babel-jest@30.5.2(@babel/core@8.0.5))(jest-util@30.5.1)(jest@30.5.2(@types/node@20.19.43))(typescript@6.0.3)
       tsup:
         specifier: ^9.0.0
         version: 9.0.0(postcss@8.5.33)(typescript@6.0.3)(yaml@2.9.1)
@@ -1179,6 +1179,10 @@ packages:
     resolution: {integrity: sha512-CXvKMFvM80ihI7Vox9jb+kQjnyjESQNPM+vB7U0Zz6TWuZA+Z/FL0QPMH300h33qJtIx+REeBhXqWOPW48TcAQ==}
     engines: {node: '>=6.9.0'}
 
+  '@babel/helper-string-parser@7.29.15':
+    resolution: {integrity: sha512-C2FuapQ2Kh1OnVHAoLi5rD3GBJ8COb9Q609T6HEpLqaBAo560PDP5OxBE5dCI/h951MBO/+bCUYU5SZ+8ZlV+w==}
+    engines: {node: '>=6.9.0'}
+
   '@babel/helper-string-parser@8.1.2':
     resolution: {integrity: sha512-TRz5Z0MgfIfWqwEIq/pCpUpEXQxUt2Ig2ZbxG3SdmhSbHMAFFYGOix0kI4JLV371/TA+qWnQ4xWHPWjojkyRFA==}
     engines: {node: ^22.18.0 || >=24.11.0}
@@ -1209,6 +1213,11 @@ packages:
 
   '@babel/parser@7.29.14':
     resolution: {integrity: sha512-VL220vXuyO2z3rNIQwY7ftj9UwpqOt+33sH+sBWkOekbsSR2g7EEMnOx24ZlCH0xOA3DM/33SifVFGbnJD8r/w==}
+    engines: {node: '>=6.0.0'}
+    hasBin: true
+
+  '@babel/parser@7.29.15':
+    resolution: {integrity: sha512-RpKWyisHoP81twtSCgmE02iU0RnPcq1DN5bBEbpUePrjA9Q3wXhufnCJrrayPpoZieqFh3zyZQqwtSK0gGccRA==}
     engines: {node: '>=6.0.0'}
     hasBin: true
 
@@ -1348,6 +1357,10 @@ packages:
 
   '@babel/types@7.29.14':
     resolution: {integrity: sha512-UjI/dKmwJwT9pOszJitq2G6EObZPnsZUfdCr92z2TlF3EZK9J3EdfOKUrCzHl6wFthbzwhzl1Soc/UIwxRiq6w==}
+    engines: {node: '>=6.9.0'}
+
+  '@babel/types@7.29.15':
+    resolution: {integrity: sha512-/XKpKDakL//LZ66bq1XsZOswuqeI5MZqPLDu18o3XdkU1fNJ7bdPtzgnc4ZNS+bBGHV0FJG8jjb8SwcC3nNVQQ==}
     engines: {node: '>=6.9.0'}
 
   '@babel/types@8.1.2':
@@ -3769,20 +3782,39 @@ packages:
   '@vitest/spy@5.1.0':
     resolution: {integrity: sha512-2DPO5OMHWKrBngC+fCmTQqemNF0gidRhp3lxbBmRhW+M1XJrfgPpqNqWVevXtn2f2ufD5ZaR1B6B641aAlcX5A==}
 
-  '@volar/language-core@2.4.15':
-    resolution: {integrity: sha512-3VHw+QZU0ZG9IuQmzT68IyN4hZNd9GchGPhbD9+pa8CVv7rnoOZwo7T8weIbrRmihqy3ATpdfXFnqRrfPVK6CA==}
+  '@volar/language-core@2.4.30':
+    resolution: {integrity: sha512-73fjwEV8wat6aOZ6U/y/hqtE30ocrIWECg67b0txGczOMNw+MffLmvJ5fnFfN9drVUEYZzLdaNo6VAy6G6avMw==}
 
-  '@volar/source-map@2.4.15':
-    resolution: {integrity: sha512-CPbMWlUN6hVZJYGcU/GSoHu4EnCHiLaXI9n8c9la6RaI9W5JHX+NqG+GSQcB0JdC2FIBLdZJwGsfKyBB71VlTg==}
+  '@volar/language-service@2.4.30':
+    resolution: {integrity: sha512-w/xDsASiqC71ggCOm7sTDXDNk/l72XEptodeRC68tgZ0e5QM4hM3zAqBGC7mBctvhrpYwKfMG+t9xcUo2hEFtA==}
+    peerDependencies:
+      typescript: <7
+    peerDependenciesMeta:
+      typescript:
+        optional: true
 
-  '@volar/typescript@2.4.15':
-    resolution: {integrity: sha512-2aZ8i0cqPGjXb4BhkMsPYDkkuc2ZQ6yOpqwAuNwUoncELqoy5fRgOQtLR9gB0g902iS0NAkvpIzs27geVyVdPg==}
+  '@volar/source-map@2.4.30':
+    resolution: {integrity: sha512-zym1ob/KwDDyN+0jGVtxwbxJSRRnUvv5HspCtz3yEfVVdCG4/dzxJktMGPAgemqRuVs81O0o/y0q3qOUErR8kg==}
+
+  '@volar/typescript@2.4.30':
+    resolution: {integrity: sha512-/DgA5tgYFPfrLFuSjIMXMGHk1LQv2+P8eny6+BhGNzFJELWIW7UZlc56ZLIRFhLsPpMfIFxM8/HvOPBggrjTZg==}
+    peerDependencies:
+      typescript: <7
+    peerDependenciesMeta:
+      typescript:
+        optional: true
 
   '@vue/compiler-core@3.5.45':
     resolution: {integrity: sha512-XGHJrM6ufZARAc/w+tyOswStw9tdKiqCKBScI4gGaNxD+aaGu/HQWgKJ+JItjRLPqenQ7iE7G8AJC7T5ew1p+g==}
 
+  '@vue/compiler-core@3.5.46':
+    resolution: {integrity: sha512-yb+N8/mgBcoeqCJPVyJI/D3OphLrSMXnB3ZQUNmRLU/1fsMW4bFfdJWNi9oIj7+EA3ULKKkP7b/VCpcYQYeiuQ==}
+
   '@vue/compiler-dom@3.5.45':
     resolution: {integrity: sha512-LbP2d19GSOYGPmvMBBCVJVlv7TKtjM1Cfeyu3cYia720pknZP+1cLX7H5MVatvruT6MuJhiPuNbQBW/MDn/EwA==}
+
+  '@vue/compiler-dom@3.5.46':
+    resolution: {integrity: sha512-Bj3lCSw3DQnDRDxw115XqdLDd0+18Nftlgd8OXSGG+ud74hxJIE17eYrM+VWgQrTMsvJbLh9Hzf2MkwAzru36Q==}
 
   '@vue/compiler-sfc@3.5.45':
     resolution: {integrity: sha512-MKFjb2UX0M/l/jhfzqMLrI8VM4pfvFKG3pqFZkSZFHRLtNld/O4RtUPZFWSwhro/14qP88UQEkWzHxAZAQ0tsw==}
@@ -3790,16 +3822,8 @@ packages:
   '@vue/compiler-ssr@3.5.45':
     resolution: {integrity: sha512-RF5sbZOfYz5AK00tOJUn2PwFXR2fS1u2HVzI8D9VF9rGAFxuGBqg2bB1kJ3ZHMprqSltXnT9MZE1IsqjSM8oew==}
 
-  '@vue/compiler-vue2@2.7.16':
-    resolution: {integrity: sha512-qYC3Psj9S/mfu9uVi5WvNZIzq+xnXMhOwbTFKKDD7b1lhpnn71jXSFdTQ+WsIEk0ONCd7VV2IMm7ONl6tbQ86A==}
-
-  '@vue/language-core@2.2.12':
-    resolution: {integrity: sha512-IsGljWbKGU1MZpBPN+BvPAdr55YPkj2nB/TBNGNC32Vy2qLG25DYu/NBN2vNtZqdRbTRjaoYrahLrToim2NanA==}
-    peerDependencies:
-      typescript: '*'
-    peerDependenciesMeta:
-      typescript:
-        optional: true
+  '@vue/language-core@3.3.14':
+    resolution: {integrity: sha512-kRB+3hHg0c+BdD1XLAvwjVMQd5pC05zijSlPDRI3ERvC/s04JlRs5upy2KjeMg/9m9oD5zuMVh9yVvkKfZqoJg==}
 
   '@vue/reactivity@3.5.45':
     resolution: {integrity: sha512-WqkyubNWpI4OYBOipSrjIssMdJO8K1i9Zts/Wm8Er10/0msOEwCyWWWvZnAI7WW3kQsTong6DJp8Cbb+vd4cPA==}
@@ -3815,6 +3839,9 @@ packages:
 
   '@vue/shared@3.5.45':
     resolution: {integrity: sha512-ue9fgHmVNPlP7iW3+cxoBX/Cnlw53dHlVSw0JKGY6z1lObg8pHoj928M2nzG4/yVsMZ3NaRZ2s2z61uC16NDwQ==}
+
+  '@vue/shared@3.5.46':
+    resolution: {integrity: sha512-P1WePbdzHrcIciWtmY2Im9EFhdakd3rZxYqvalOa3SfoxtF35Q8Uhmj1tKn6bWP4utcOpN8ao6BoJUItq0Uf+g==}
 
   '@vue/test-utils@2.4.6':
     resolution: {integrity: sha512-FMxEjOpYNYiFe0GkaHsnJPXFHxQ6m4t8vI/ElPGpMWxZKpmRvQ33OIrvRXemy6yha03RxhOlQuy+gZMC3CQSow==}
@@ -3936,8 +3963,8 @@ packages:
   ajv@8.20.0:
     resolution: {integrity: sha512-Thbli+OlOj+iMPYFBVBfJ3OmCAnaSyNn4M1vz9T6Gka5Jt9ba/HIR56joy65tY6kx/FCF5VXNB819Y7/GUrBGA==}
 
-  alien-signals@1.0.13:
-    resolution: {integrity: sha512-OGj9yyTnJEttvzhTUWuscOvtqxq5vrhF7vL9oS0xJ2mK0ItPYP1/y+vCFebfxoEyAz0++1AIwJ5CMr+Fk3nDmg==}
+  alien-signals@3.2.1:
+    resolution: {integrity: sha512-I8FjmltrfnDFoZedi5CG8DghVYNhzb/Ijluz7tCSJH0xpd0484Kowhbb1XDYOxfJpU1p5wnM2X54dA+IfGyD1g==}
 
   am-i-vibing@0.5.0:
     resolution: {integrity: sha512-KLcsDhqf1XRrJmJr+9I/C0EX2K+sGrAGZFgkmd84c8TJO9zJBu+/kFInjazu1KfJWFhWDKdRWkpBzEs7s35DVA==}
@@ -4455,9 +4482,6 @@ packages:
   data-urls@6.0.1:
     resolution: {integrity: sha512-euIQENZg6x8mj3fO6o9+fOW8MimUI4PpD/fZBhJfeioZVy9TUpM4UY7KjQNVZFlqwJ0UdzRDzkycB997HEq1BQ==}
     engines: {node: '>=20'}
-
-  de-indent@1.0.2:
-    resolution: {integrity: sha512-e/1zu3xH5MQryN2zdVaF0OrdNLUbvWxzMbi+iNA6Bky7l1RoP8a2fIbRocyHclXt/arDrrR6lL3TqFD9pMQTsg==}
 
   debug@2.6.9:
     resolution: {integrity: sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA==}
@@ -5081,10 +5105,6 @@ packages:
 
   hast-util-whitespace@3.0.0:
     resolution: {integrity: sha512-88JUN06ipLwsnv+dVn+OIYOvAuvBMy/Qoi6O7mQHxdPXpjy+Cd6xRkWwux7DKO+4sYILtLBRIKgsdpS2gQc7qw==}
-
-  he@1.2.0:
-    resolution: {integrity: sha512-F/1DnUGPopORZi0ni+CvrCgHQ5FyEAHRLSApuYWMmrbSwoN2Mn/7k+Gl38gJnR7yyDZk6WLXwiGod1JOWNDKGw==}
-    hasBin: true
 
   highlight.js@10.7.3:
     resolution: {integrity: sha512-tzcUFauisWKNHaRkN4Wjl/ZA07gENAjFl3J/c480dprkGTg5EQstgaNFqBfUqCq54kZRIEcreTsAgF/m2quD7A==}
@@ -6945,6 +6965,10 @@ packages:
     resolution: {integrity: sha512-KGj/8Y43x35aZVDtt+J4mK1hoLGHULMYfSkODJNQjNDC3oW1PqPoxMwo0pLUsWM/UEGzON/NxeHywEfNXNP3Vw==}
     engines: {node: '>=0.10.0'}
 
+  source-map-js@1.2.4:
+    resolution: {integrity: sha512-J7ZjMvHd9O1fcT/5V09QWaaSl2BbWx3F6O08spde82Namf9UB0GxRVIPiNbVsdKkoizHiSpTodo3vp2bAy91MA==}
+    engines: {node: '>=6.0.0'}
+
   source-map-support@0.5.21:
     resolution: {integrity: sha512-uBHU3L3czsIyYXKX88fdrGovxdSCoTGDRZ6SYXtSRxLZUzHg5P/66Ht6uoUlHu9EZod+inXhKo3qQgwXUT/y1w==}
 
@@ -7626,14 +7650,27 @@ packages:
       jsdom:
         optional: true
 
+  vscode-jsonrpc@10.0.1:
+    resolution: {integrity: sha512-fGdu32Sp4GeSQ2twML46WPMB6cFfIJ4Vdx1K5s/WPzUYdShVPCGKscYltn5hiNz748xKNJdBHgocAvuN48tLGw==}
+    engines: {node: '>=14.17.0'}
+
+  vscode-languageserver-protocol@3.18.6:
+    resolution: {integrity: sha512-Ocoa4g/vyB66ZFkIKApV8/FTjQ+EYeOVDkq/nzw9SmfX+L6Ikl5KtL5AjmSAQ7nhqfud1ojiVuy+drHdvAlgUg==}
+
+  vscode-languageserver-textdocument@1.0.16:
+    resolution: {integrity: sha512-qeNEuOi9a3qkqRf7Gfez2WL2VwlBTLCNekHBGO9kxPVUp9XuY15yfTJ9jwvOwKI0I2MhUUfZq95NSp+LK1CLQg==}
+
+  vscode-languageserver-types@3.18.6:
+    resolution: {integrity: sha512-DEDtik4YupS+nOg4JxqJ2H5ec/m4tTD9a5mGcBVGYkQKZQo1AIF3ZToiP8+A0kUzyhyqX5dMnPDEnhtmzts7GA==}
+
   vscode-uri@3.2.0:
     resolution: {integrity: sha512-m2gXo3bn0G1kT9InzMf07fTbqMbGtyckj3bH5ktLO+1Ssv+yiATZ4dhwaQv9UZWxJh6E9IFGnQyjgWVDWVBDrg==}
 
   vue-component-type-helpers@2.2.12:
     resolution: {integrity: sha512-YbGqHZ5/eW4SnkPNR44mKVc6ZKQoRs/Rux1sxC6rdwXb4qpbOSYfDr9DsTHolOTGmIKgM9j141mZbBeg05R1pw==}
 
-  vue-tsc@2.2.12:
-    resolution: {integrity: sha512-P7OP77b2h/Pmk+lZdJ0YWs+5tJ6J2+uOQPo7tlBnY44QqQSPYvS0qVT4wqDJgwrZaLe47etJLLQRFia71GYITw==}
+  vue-tsc@3.3.14:
+    resolution: {integrity: sha512-URAu2H9AuMZMg9GCgnqbaHHHd8pBZRAwNV2e2yYS8VDsoTVXHiOSo663OS6DkEvauQ2yixn5TPFJ9WV9QIspkA==}
     hasBin: true
     peerDependencies:
       typescript: '>=5.0.0'
@@ -7810,18 +7847,22 @@ packages:
   yuku-ast@0.19.0:
     resolution: {integrity: sha512-PyCsiScaelhxBGzL8dyeJkLqvRZycoh78R31Vrt/WqYrm0hMFoKwIw/X7Dx5mBKLWAMlV9I9HEyBOHnj2gZVyw==}
     engines: {node: '>=14.18.0'}
+    deprecated: 'Yuku is now one package with one core. Use "yuku" instead: https://yuku.fyi/javascript/. Existing installs keep working but get no more fixes.'
 
   yuku-codegen@0.19.0:
     resolution: {integrity: sha512-uymAKHjDuaP4BEpkXC/BSLz4DUEF5oArZ5AuD3888nb2miChjWSgpPdojEJxm3pjpXkgUaCRJQyNAbnMN33wHg==}
     engines: {node: '>=14.18.0'}
+    deprecated: 'Yuku is now one package with one core. Use "yuku" instead: https://yuku.fyi/javascript/. Existing installs keep working but get no more fixes.'
 
   yuku-core@0.19.0:
     resolution: {integrity: sha512-kYK9e1XdfirNhkipzW0wmMcSWcVF/CWnuugodfVYRCUwvoBefweL9HzB96OiKEhsx78V5WbUxbJqlizMX869Qg==}
     engines: {node: '>=14.18.0'}
+    deprecated: 'Yuku is now one package with one core. Use "yuku" instead: https://yuku.fyi/javascript/. Existing installs keep working but get no more fixes.'
 
   yuku-parser@0.19.0:
     resolution: {integrity: sha512-XrBh9ZiQK5mJVRxZBAvD6LwRyAYrK3MFtH3+onyuxFL5hFD44EC3QOmIC1FjTj6H2MMwq46/NAI+NZxLZPZgxg==}
     engines: {node: '>=14.18.0'}
+    deprecated: 'Yuku is now one package with one core. Use "yuku" instead: https://yuku.fyi/javascript/. Existing installs keep working but get no more fixes.'
 
   zimmerframe@1.1.5:
     resolution: {integrity: sha512-msJxIvYDYcoNL+PJsu+7qmpDWsYmAxTY+2TNYXXF0hzBzBk0BMecOqDOG/EckUoKCuKwObfbugIl8QpqHDXeFA==}
@@ -7879,7 +7920,7 @@ snapshots:
     transitivePeerDependencies:
       - chokidar
 
-  '@angular/build@22.2.7(@angular/compiler-cli@22.2.6(@angular/compiler@22.2.6)(typescript@6.0.3))(@angular/compiler@22.2.6)(@angular/core@22.2.6(@angular/compiler@22.2.6)(rxjs@7.8.2)(zone.js@0.16.3))(@angular/platform-browser@22.2.6(@angular/common@22.2.6(@angular/core@22.2.6(@angular/compiler@22.2.6)(rxjs@7.8.2)(zone.js@0.16.3))(rxjs@7.8.2))(@angular/core@22.2.6(@angular/compiler@22.2.6)(rxjs@7.8.2)(zone.js@0.16.3)))(@types/node@20.19.43)(istanbul-lib-instrument@6.0.3)(less@4.9.1)(ng-packagr@22.2.6(@angular/compiler-cli@22.2.6(@angular/compiler@22.2.6)(typescript@6.0.3))(@volar/typescript@2.4.15)(tslib@2.9.1)(typescript@6.0.3))(postcss@8.5.33)(rollup@4.68.5)(tslib@2.9.1)(typescript@6.0.3)(vitest@5.1.0(@types/node@20.19.43)(happy-dom@21.0.4)(jsdom@27.2.0)(vite@8.3.5(@types/node@20.19.43)(esbuild@0.28.2)(less@4.9.1)(sass-embedded@1.104.1)(sass@1.104.1)(yaml@2.9.1)))(yaml@2.9.1)':
+  '@angular/build@22.2.7(@angular/compiler-cli@22.2.6(@angular/compiler@22.2.6)(typescript@6.0.3))(@angular/compiler@22.2.6)(@angular/core@22.2.6(@angular/compiler@22.2.6)(rxjs@7.8.2)(zone.js@0.16.3))(@angular/platform-browser@22.2.6(@angular/common@22.2.6(@angular/core@22.2.6(@angular/compiler@22.2.6)(rxjs@7.8.2)(zone.js@0.16.3))(rxjs@7.8.2))(@angular/core@22.2.6(@angular/compiler@22.2.6)(rxjs@7.8.2)(zone.js@0.16.3)))(@types/node@20.19.43)(istanbul-lib-instrument@6.0.3)(less@4.9.1)(ng-packagr@22.2.6(@angular/compiler-cli@22.2.6(@angular/compiler@22.2.6)(typescript@6.0.3))(@volar/typescript@2.4.30(typescript@6.0.3))(@vue/language-core@3.3.14)(tslib@2.9.1)(typescript@6.0.3)(vue-tsc@3.3.14(typescript@6.0.3)))(postcss@8.5.33)(rollup@4.68.5)(tslib@2.9.1)(typescript@6.0.3)(vitest@5.1.0(@types/node@20.19.43)(happy-dom@21.0.4)(jsdom@27.2.0)(vite@8.3.5(@types/node@20.19.43)(esbuild@0.28.2)(less@4.9.1)(sass-embedded@1.104.1)(sass@1.104.1)(yaml@2.9.1)))(yaml@2.9.1)':
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@angular-devkit/architect': 0.2202.7(chokidar@5.0.0)
@@ -7919,7 +7960,7 @@ snapshots:
       istanbul-lib-instrument: 6.0.3
       less: 4.9.1
       lmdb: 3.5.6
-      ng-packagr: 22.2.6(@angular/compiler-cli@22.2.6(@angular/compiler@22.2.6)(typescript@6.0.3))(@volar/typescript@2.4.15)(tslib@2.9.1)(typescript@6.0.3)
+      ng-packagr: 22.2.6(@angular/compiler-cli@22.2.6(@angular/compiler@22.2.6)(typescript@6.0.3))(@volar/typescript@2.4.30(typescript@6.0.3))(@vue/language-core@3.3.14)(tslib@2.9.1)(typescript@6.0.3)(vue-tsc@3.3.14(typescript@6.0.3))
       postcss: 8.5.33
       rollup: 4.68.5
       vitest: 5.1.0(@types/node@20.19.43)(happy-dom@21.0.4)(jsdom@27.2.0)(vite@8.3.5(@types/node@20.19.43)(esbuild@0.28.2)(less@4.9.1)(sass-embedded@1.104.1)(sass@1.104.1)(yaml@2.9.1))
@@ -8344,6 +8385,8 @@ snapshots:
 
   '@babel/helper-string-parser@7.29.14': {}
 
+  '@babel/helper-string-parser@7.29.15': {}
+
   '@babel/helper-string-parser@8.1.2': {}
 
   '@babel/helper-validator-identifier@7.29.7': {}
@@ -8367,6 +8410,10 @@ snapshots:
   '@babel/parser@7.29.14':
     dependencies:
       '@babel/types': 7.29.14
+
+  '@babel/parser@7.29.15':
+    dependencies:
+      '@babel/types': 7.29.15
 
   '@babel/parser@8.1.2':
     dependencies:
@@ -8616,6 +8663,11 @@ snapshots:
   '@babel/types@7.29.14':
     dependencies:
       '@babel/helper-string-parser': 7.29.14
+      '@babel/helper-validator-identifier': 7.29.7
+
+  '@babel/types@7.29.15':
+    dependencies:
+      '@babel/helper-string-parser': 7.29.15
       '@babel/helper-validator-identifier': 7.29.7
 
   '@babel/types@8.1.2':
@@ -9325,42 +9377,6 @@ snapshots:
       jest-message-util: 30.5.1
       jest-util: 30.5.1
       slash: 3.0.0
-
-  '@jest/core@30.5.2(ts-node@10.9.2(@types/node@20.19.43)(typescript@6.0.3))':
-    dependencies:
-      '@jest/console': 30.5.2
-      '@jest/pattern': 30.5.0
-      '@jest/reporters': 30.5.2
-      '@jest/test-result': 30.5.2
-      '@jest/transform': 30.5.2
-      '@jest/types': 30.5.1
-      '@types/node': 20.19.43
-      ansi-escapes: 4.3.2
-      chalk: 4.1.2
-      ci-info: 4.5.0
-      exit-x: 0.2.2
-      fast-json-stable-stringify: 2.1.0
-      graceful-fs: 4.2.12
-      jest-changed-files: 30.5.1
-      jest-config: 30.5.2(@types/node@20.19.43)(ts-node@10.9.2(@types/node@20.19.43)(typescript@6.0.3))
-      jest-haste-map: 30.5.1
-      jest-message-util: 30.5.1
-      jest-regex-util: 30.5.0
-      jest-resolve: 30.5.1
-      jest-resolve-dependencies: 30.5.2
-      jest-runner: 30.5.2
-      jest-runtime: 30.5.2
-      jest-snapshot: 30.5.2
-      jest-util: 30.5.1
-      jest-validate: 30.5.1
-      jest-watcher: 30.5.2
-      pretty-format: 30.5.1
-      slash: 3.0.0
-    transitivePeerDependencies:
-      - babel-plugin-macros
-      - esbuild-register
-      - supports-color
-      - ts-node
 
   '@jest/core@30.5.2(ts-node@10.9.2(@types/node@24.19.2)(typescript@6.0.3))':
     dependencies:
@@ -10755,17 +10771,29 @@ snapshots:
 
   '@vitest/spy@5.1.0': {}
 
-  '@volar/language-core@2.4.15':
+  '@volar/language-core@2.4.30':
     dependencies:
-      '@volar/source-map': 2.4.15
+      '@volar/source-map': 2.4.30
 
-  '@volar/source-map@2.4.15': {}
-
-  '@volar/typescript@2.4.15':
+  '@volar/language-service@2.4.30(typescript@6.0.3)':
     dependencies:
-      '@volar/language-core': 2.4.15
+      '@volar/language-core': 2.4.30
+      vscode-languageserver-protocol: 3.18.6
+      vscode-languageserver-textdocument: 1.0.16
+      vscode-uri: 3.2.0
+    optionalDependencies:
+      typescript: 6.0.3
+
+  '@volar/source-map@2.4.30': {}
+
+  '@volar/typescript@2.4.30(typescript@6.0.3)':
+    dependencies:
+      '@volar/language-core': 2.4.30
+      '@volar/language-service': 2.4.30(typescript@6.0.3)
       path-browserify: 1.0.1
       vscode-uri: 3.2.0
+    optionalDependencies:
+      typescript: 6.0.3
 
   '@vue/compiler-core@3.5.45':
     dependencies:
@@ -10775,10 +10803,23 @@ snapshots:
       estree-walker: 2.0.2
       source-map-js: 1.2.2
 
+  '@vue/compiler-core@3.5.46':
+    dependencies:
+      '@babel/parser': 7.29.15
+      '@vue/shared': 3.5.46
+      entities: 7.0.1
+      estree-walker: 2.0.2
+      source-map-js: 1.2.4
+
   '@vue/compiler-dom@3.5.45':
     dependencies:
       '@vue/compiler-core': 3.5.45
       '@vue/shared': 3.5.45
+
+  '@vue/compiler-dom@3.5.46':
+    dependencies:
+      '@vue/compiler-core': 3.5.46
+      '@vue/shared': 3.5.46
 
   '@vue/compiler-sfc@3.5.45':
     dependencies:
@@ -10797,23 +10838,15 @@ snapshots:
       '@vue/compiler-dom': 3.5.45
       '@vue/shared': 3.5.45
 
-  '@vue/compiler-vue2@2.7.16':
+  '@vue/language-core@3.3.14':
     dependencies:
-      de-indent: 1.0.2
-      he: 1.2.0
-
-  '@vue/language-core@2.2.12(typescript@6.0.3)':
-    dependencies:
-      '@volar/language-core': 2.4.15
-      '@vue/compiler-dom': 3.5.45
-      '@vue/compiler-vue2': 2.7.16
-      '@vue/shared': 3.5.45
-      alien-signals: 1.0.13
-      minimatch: 9.0.9
+      '@volar/language-core': 2.4.30
+      '@vue/compiler-dom': 3.5.46
+      '@vue/shared': 3.5.46
+      alien-signals: 3.2.1
       muggle-string: 0.4.1
       path-browserify: 1.0.1
-    optionalDependencies:
-      typescript: 6.0.3
+      picomatch: 4.0.7
 
   '@vue/reactivity@3.5.45':
     dependencies:
@@ -10838,6 +10871,8 @@ snapshots:
       '@vue/shared': 3.5.45
 
   '@vue/shared@3.5.45': {}
+
+  '@vue/shared@3.5.46': {}
 
   '@vue/test-utils@2.4.6':
     dependencies:
@@ -10926,7 +10961,7 @@ snapshots:
       json-schema-traverse: 1.0.0
       require-from-string: 2.0.2
 
-  alien-signals@1.0.13: {}
+  alien-signals@3.2.1: {}
 
   am-i-vibing@0.5.0:
     dependencies:
@@ -11571,8 +11606,6 @@ snapshots:
     dependencies:
       whatwg-mimetype: 5.0.0
       whatwg-url: 15.1.0
-
-  de-indent@1.0.2: {}
 
   debug@2.6.9:
     dependencies:
@@ -12282,8 +12315,6 @@ snapshots:
     dependencies:
       '@types/hast': 3.0.5
 
-  he@1.2.0: {}
-
   highlight.js@10.7.3: {}
 
   hosted-git-info@10.1.1:
@@ -12518,15 +12549,34 @@ snapshots:
       - babel-plugin-macros
       - supports-color
 
-  jest-cli@30.5.2(@types/node@20.19.43)(ts-node@10.9.2(@types/node@20.19.43)(typescript@6.0.3)):
+  jest-cli@30.5.2(@types/node@20.19.43):
     dependencies:
-      '@jest/core': 30.5.2(ts-node@10.9.2(@types/node@20.19.43)(typescript@6.0.3))
+      '@jest/core': 30.5.2(ts-node@10.9.2(@types/node@24.19.2)(typescript@6.0.3))
       '@jest/test-result': 30.5.2
       '@jest/types': 30.5.1
       chalk: 4.1.2
       exit-x: 0.2.2
       import-local: 3.2.0
-      jest-config: 30.5.2(@types/node@20.19.43)(ts-node@10.9.2(@types/node@20.19.43)(typescript@6.0.3))
+      jest-config: 30.5.2(@types/node@20.19.43)(ts-node@10.9.2(@types/node@24.19.2)(typescript@6.0.3))
+      jest-util: 30.5.1
+      jest-validate: 30.5.1
+      yargs: 17.7.3
+    transitivePeerDependencies:
+      - '@types/node'
+      - babel-plugin-macros
+      - esbuild-register
+      - supports-color
+      - ts-node
+
+  jest-cli@30.5.2(@types/node@24.19.2):
+    dependencies:
+      '@jest/core': 30.5.2(ts-node@10.9.2(@types/node@24.19.2)(typescript@6.0.3))
+      '@jest/test-result': 30.5.2
+      '@jest/types': 30.5.1
+      chalk: 4.1.2
+      exit-x: 0.2.2
+      import-local: 3.2.0
+      jest-config: 30.5.2(@types/node@24.19.2)(ts-node@10.9.2(@types/node@24.19.2)(typescript@6.0.3))
       jest-util: 30.5.1
       jest-validate: 30.5.1
       yargs: 17.7.3
@@ -12555,38 +12605,6 @@ snapshots:
       - esbuild-register
       - supports-color
       - ts-node
-
-  jest-config@30.5.2(@types/node@20.19.43)(ts-node@10.9.2(@types/node@20.19.43)(typescript@6.0.3)):
-    dependencies:
-      '@babel/core': 7.29.13
-      '@jest/get-type': 30.5.0
-      '@jest/pattern': 30.5.0
-      '@jest/test-sequencer': 30.5.2
-      '@jest/types': 30.5.1
-      babel-jest: 30.5.2(@babel/core@7.29.13)
-      chalk: 4.1.2
-      ci-info: 4.5.0
-      deepmerge: 4.3.1
-      glob: 13.0.7
-      graceful-fs: 4.2.12
-      jest-circus: 30.5.2
-      jest-docblock: 30.5.0
-      jest-environment-node: 30.5.2
-      jest-regex-util: 30.5.0
-      jest-resolve: 30.5.1
-      jest-runner: 30.5.2
-      jest-util: 30.5.1
-      jest-validate: 30.5.1
-      parse-json: 5.2.0
-      pretty-format: 30.5.1
-      slash: 3.0.0
-      strip-json-comments: 3.1.1
-    optionalDependencies:
-      '@types/node': 20.19.43
-      ts-node: 10.9.2(@types/node@20.19.43)(typescript@6.0.3)
-    transitivePeerDependencies:
-      - babel-plugin-macros
-      - supports-color
 
   jest-config@30.5.2(@types/node@20.19.43)(ts-node@10.9.2(@types/node@24.19.2)(typescript@6.0.3)):
     dependencies:
@@ -12876,12 +12894,25 @@ snapshots:
       merge-stream: 2.0.0
       supports-color: 8.1.1
 
-  jest@30.5.2(@types/node@20.19.43)(ts-node@10.9.2(@types/node@20.19.43)(typescript@6.0.3)):
+  jest@30.5.2(@types/node@20.19.43):
     dependencies:
-      '@jest/core': 30.5.2(ts-node@10.9.2(@types/node@20.19.43)(typescript@6.0.3))
+      '@jest/core': 30.5.2(ts-node@10.9.2(@types/node@24.19.2)(typescript@6.0.3))
       '@jest/types': 30.5.1
       import-local: 3.2.0
-      jest-cli: 30.5.2(@types/node@20.19.43)(ts-node@10.9.2(@types/node@20.19.43)(typescript@6.0.3))
+      jest-cli: 30.5.2(@types/node@20.19.43)
+    transitivePeerDependencies:
+      - '@types/node'
+      - babel-plugin-macros
+      - esbuild-register
+      - supports-color
+      - ts-node
+
+  jest@30.5.2(@types/node@24.19.2):
+    dependencies:
+      '@jest/core': 30.5.2(ts-node@10.9.2(@types/node@24.19.2)(typescript@6.0.3))
+      '@jest/types': 30.5.1
+      import-local: 3.2.0
+      jest-cli: 30.5.2(@types/node@24.19.2)
     transitivePeerDependencies:
       - '@types/node'
       - babel-plugin-macros
@@ -13432,7 +13463,7 @@ snapshots:
       - '@types/node'
       - babel-plugin-macros
 
-  ng-packagr@22.2.6(@angular/compiler-cli@22.2.6(@angular/compiler@22.2.6)(typescript@6.0.3))(@volar/typescript@2.4.15)(tslib@2.9.1)(typescript@6.0.3):
+  ng-packagr@22.2.6(@angular/compiler-cli@22.2.6(@angular/compiler@22.2.6)(typescript@6.0.3))(@volar/typescript@2.4.30(typescript@6.0.3))(@vue/language-core@3.3.14)(tslib@2.9.1)(typescript@6.0.3)(vue-tsc@3.3.14(typescript@6.0.3)):
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@angular/compiler-cli': 22.2.6(@angular/compiler@22.2.6)(typescript@6.0.3)
@@ -13449,7 +13480,7 @@ snapshots:
       ora: 9.4.1
       postcss: 8.5.33
       rolldown: 1.3.2
-      rolldown-plugin-dts: 0.28.8(@volar/typescript@2.4.15)(rolldown@1.3.2)(typescript@6.0.3)
+      rolldown-plugin-dts: 0.28.8(@volar/typescript@2.4.30(typescript@6.0.3))(@vue/language-core@3.3.14)(rolldown@1.3.2)(typescript@6.0.3)(vue-tsc@3.3.14(typescript@6.0.3))
       rxjs: 7.8.2
       sass: 1.108.2
       sass-embedded: 1.108.2
@@ -13977,7 +14008,7 @@ snapshots:
     dependencies:
       glob: 7.2.3
 
-  rolldown-plugin-dts@0.28.8(@volar/typescript@2.4.15)(rolldown@1.3.2)(typescript@6.0.3):
+  rolldown-plugin-dts@0.28.8(@volar/typescript@2.4.30(typescript@6.0.3))(@vue/language-core@3.3.14)(rolldown@1.3.2)(typescript@6.0.3)(vue-tsc@3.3.14(typescript@6.0.3)):
     dependencies:
       dts-resolver: 3.0.0
       get-tsconfig: 5.0.0-beta.6
@@ -13987,8 +14018,10 @@ snapshots:
       yuku-codegen: 0.19.0
       yuku-parser: 0.19.0
     optionalDependencies:
-      '@volar/typescript': 2.4.15
+      '@volar/typescript': 2.4.30(typescript@6.0.3)
+      '@vue/language-core': 3.3.14
       typescript: 6.0.3
+      vue-tsc: 3.3.14(typescript@6.0.3)
     transitivePeerDependencies:
       - oxc-resolver
 
@@ -14564,6 +14597,8 @@ snapshots:
 
   source-map-js@1.2.2: {}
 
+  source-map-js@1.2.4: {}
+
   source-map-support@0.5.21:
     dependencies:
       buffer-from: 1.1.2
@@ -14813,33 +14848,12 @@ snapshots:
 
   ts-interface-checker@0.1.13: {}
 
-  ts-jest@29.4.15(@babel/core@7.29.13)(@jest/transform@30.5.2)(@jest/types@30.5.1)(babel-jest@30.5.2(@babel/core@7.29.13))(esbuild@0.28.2)(jest-util@30.5.1)(jest@30.5.2(@types/node@20.19.43)(ts-node@10.9.2(@types/node@20.19.43)(typescript@6.0.3)))(typescript@6.0.3):
+  ts-jest@29.4.15(@babel/core@8.0.5)(@jest/transform@30.5.2)(@jest/types@30.5.1)(babel-jest@30.5.2(@babel/core@8.0.5))(jest-util@30.5.1)(jest@30.5.2(@types/node@20.19.43))(typescript@6.0.3):
     dependencies:
       bs-logger: 0.2.6
       fast-json-stable-stringify: 2.1.0
       handlebars: 4.7.10
-      jest: 30.5.2(@types/node@20.19.43)(ts-node@10.9.2(@types/node@20.19.43)(typescript@6.0.3))
-      json5: 2.2.3
-      lodash.memoize: 4.1.2
-      make-error: 1.3.6
-      semver: 7.8.6
-      type-fest: 4.41.0
-      typescript: 6.0.3
-      yargs-parser: 21.1.1
-    optionalDependencies:
-      '@babel/core': 7.29.13
-      '@jest/transform': 30.5.2
-      '@jest/types': 30.5.1
-      babel-jest: 30.5.2(@babel/core@7.29.13)
-      esbuild: 0.28.2
-      jest-util: 30.5.1
-
-  ts-jest@29.4.15(@babel/core@8.0.5)(@jest/transform@30.5.2)(@jest/types@30.5.1)(babel-jest@30.5.2(@babel/core@8.0.5))(jest-util@30.5.1)(jest@30.5.2(@types/node@20.19.43)(ts-node@10.9.2(@types/node@20.19.43)(typescript@6.0.3)))(typescript@6.0.3):
-    dependencies:
-      bs-logger: 0.2.6
-      fast-json-stable-stringify: 2.1.0
-      handlebars: 4.7.10
-      jest: 30.5.2(@types/node@20.19.43)(ts-node@10.9.2(@types/node@20.19.43)(typescript@6.0.3))
+      jest: 30.5.2(@types/node@20.19.43)
       json5: 2.2.3
       lodash.memoize: 4.1.2
       make-error: 1.3.6
@@ -14874,24 +14888,25 @@ snapshots:
       babel-jest: 30.5.2(@babel/core@8.0.5)
       jest-util: 30.5.1
 
-  ts-node@10.9.2(@types/node@20.19.43)(typescript@6.0.3):
+  ts-jest@29.4.15(@babel/core@8.0.5)(@jest/transform@30.5.2)(@jest/types@30.5.1)(babel-jest@30.5.2(@babel/core@8.0.5))(jest-util@30.5.1)(jest@30.5.2(@types/node@24.19.2))(typescript@6.0.3):
     dependencies:
-      '@cspotcode/source-map-support': 0.8.1
-      '@tsconfig/node10': 1.0.14
-      '@tsconfig/node12': 1.0.11
-      '@tsconfig/node14': 1.0.3
-      '@tsconfig/node16': 1.0.4
-      '@types/node': 20.19.43
-      acorn: 8.19.0
-      acorn-walk: 8.3.5
-      arg: 4.1.3
-      create-require: 1.1.1
-      diff: 4.0.4
+      bs-logger: 0.2.6
+      fast-json-stable-stringify: 2.1.0
+      handlebars: 4.7.10
+      jest: 30.5.2(@types/node@24.19.2)
+      json5: 2.2.3
+      lodash.memoize: 4.1.2
       make-error: 1.3.6
+      semver: 7.8.6
+      type-fest: 4.41.0
       typescript: 6.0.3
-      v8-compile-cache-lib: 3.0.1
-      yn: 3.1.1
-    optional: true
+      yargs-parser: 21.1.1
+    optionalDependencies:
+      '@babel/core': 8.0.5
+      '@jest/transform': 30.5.2
+      '@jest/types': 30.5.1
+      babel-jest: 30.5.2(@babel/core@8.0.5)
+      jest-util: 30.5.1
 
   ts-node@10.9.2(@types/node@24.19.2)(typescript@6.0.3):
     dependencies:
@@ -15211,14 +15226,25 @@ snapshots:
     transitivePeerDependencies:
       - msw
 
+  vscode-jsonrpc@10.0.1: {}
+
+  vscode-languageserver-protocol@3.18.6:
+    dependencies:
+      vscode-jsonrpc: 10.0.1
+      vscode-languageserver-types: 3.18.6
+
+  vscode-languageserver-textdocument@1.0.16: {}
+
+  vscode-languageserver-types@3.18.6: {}
+
   vscode-uri@3.2.0: {}
 
   vue-component-type-helpers@2.2.12: {}
 
-  vue-tsc@2.2.12(typescript@6.0.3):
+  vue-tsc@3.3.14(typescript@6.0.3):
     dependencies:
-      '@volar/typescript': 2.4.15
-      '@vue/language-core': 2.2.12(typescript@6.0.3)
+      '@volar/typescript': 2.4.30(typescript@6.0.3)
+      '@vue/language-core': 3.3.14
       typescript: 6.0.3
 
   vue@3.5.45(typescript@6.0.3):
